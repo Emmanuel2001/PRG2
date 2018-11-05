@@ -10,6 +10,12 @@
 
     <Grid>
         <ListView x:ConnectionId='1' x:Name="cashcardListView" HorizontalAlignment="Left" Height="227" Margin="182,207,0,0" VerticalAlignment="Top" Width="382"/>
+        <TextBox x:ConnectionId='2' x:Name="CheckId" HorizontalAlignment="Left" Margin="206,486,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="45" Width="102" />
+        <Button x:ConnectionId='3' Content="Search ID" HorizontalAlignment="Left" Margin="341,499,0,0" VerticalAlignment="Top" Width="124"                     />
+        <TextBox x:ConnectionId='4' x:Name="TheBalance" HorizontalAlignment="Left" Margin="206,559,0,0" TextWrapping="Wrap" Text="Balance:" VerticalAlignment="Top" Width="272" />
+        <TextBox x:ConnectionId='5' x:Name="Topupbox" HorizontalAlignment="Left" Margin="206,630,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="32" Width="71" />
+        <TextBox x:ConnectionId='6' x:Name="Finalbalance" HorizontalAlignment="Left" Margin="206,678,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='7' Content="Top-Up" HorizontalAlignment="Left" Margin="311,631,0,0" VerticalAlignment="Top"                       />
 
     </Grid>
 </Page>

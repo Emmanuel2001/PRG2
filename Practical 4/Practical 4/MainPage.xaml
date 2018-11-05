@@ -1,0 +1,43 @@
+﻿<Page
+    x:Class="Practical_4.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Practical_4"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock x:Name="titleTxt" HorizontalAlignment="Left" Height="92"
+Margin="446,46,0,0" TextWrapping="Wrap" Text="Programming II - Practical 4"
+VerticalAlignment="Top" Width="750" FontSize="48"/>
+        <TextBlock x:Name="account1Txt" HorizontalAlignment="Left" Height="195"
+Margin="207,143,0,0" TextWrapping="Wrap" Text="Account 1 Details"
+VerticalAlignment="Top" Width="403" RenderTransformOrigin="-0.271,0.72"
+FontSize="36"/>
+        <TextBlock x:Name="account2Txt" HorizontalAlignment="Left"
+Margin="880,143,0,0" TextWrapping="Wrap" Text="Account 2 Details"
+VerticalAlignment="Top" Height="195" Width="395" FontSize="36"/>
+        <Button x:Name="account1DepositBtn" Content="Deposit $1000 to Account 1"
+HorizontalAlignment="Left" Margin="207,389,0,0" VerticalAlignment="Top"
+Height="108" Width="350" FontSize="24" Click="account1DepositBtn_Click"/>
+        <Button x:Name="account2DepositBtn" Content="Deposit $1000 to Account 2"
+HorizontalAlignment="Left" Margin="880,389,0,0" VerticalAlignment="Top"
+Height="108" Width="350" FontSize="24" Click="account2DepositBtn_Click"/>
+        <Button x:Name="account1WithdrawBtn" Content="Withdraw $1000 from Account 1"
+HorizontalAlignment="Left" Margin="207,512,0,0" VerticalAlignment="Top"
+Height="108" Width="350" FontSize="24" Click="account1WithdrawBtn_Click"/>
+        <Button x:Name="account2WithdrawBtn" Content="Withdraw $1000 from Account 2"
+HorizontalAlignment="Left" Margin="880,512,0,0" VerticalAlignment="Top"
+Height="108" Width="350" FontSize="24" Click="account2WithdrawBtn_Click"/>
+        <Button x:Name="account1InterestBtn" Content="Display Interest of Account 1"
+HorizontalAlignment="Left" Margin="207,625,0,0" VerticalAlignment="Top"
+Height="107" Width="350" FontSize="24" Click="account1InterestBtn_Click"/>
+        <Button x:Name="account2InterestBtn" Content="Display Interest of Account 2"
+HorizontalAlignment="Left" Margin="880,625,0,0" VerticalAlignment="Top"
+Height="107" Width="350" FontSize="24" Click="account2InterestBtn_Click"/>
+        <TextBlock x:Name="Ac1" HorizontalAlignment="Left" Margin="562,560,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="48" Width="202"/>
+        <TextBlock x:Name="Ac2" HorizontalAlignment="Left" Margin="681,672,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="58" Width="194"/>
+    </Grid>
+</Page>

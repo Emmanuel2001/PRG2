@@ -37,7 +37,7 @@ namespace prac3part2
                 rectview.Add(rectlist[i].ToString());
             }
 
-            attributetxt.Text = rectview[0] + '\n' + '\n' + rectview[1];
+            attributetxt.Text = rectview[0] + "\n" + "\n" + rectview[1];
 
 
             areaTxt.Text = rect1.FindArea().ToString();
@@ -54,6 +54,26 @@ namespace prac3part2
             rect2.Width = 100;
             rectlist.Add(rect1);
             rectlist.Add(rect2);
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (rect1.Width < 300 && rect1.Height < 300 && rect2.Width > 0 && rect2.Height > 0)
+            {
+                rect1.Height += 8;
+                rect1.Width += 12;
+                rect2.Height -= 16;
+                rect2.Width -= 10;
+            }
+
+            else
+            {
+                Rectangle1.Width = 1;
+                Rectangle2.Height = 1;
+            }
+
+            Rectangle1.Width = rect1.Width;
+            Rectangle2.Height = rect2.Height;
         }
     }
 }

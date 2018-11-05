@@ -23,9 +23,12 @@ namespace prac3
             set { val = value; }
         }
 
-        public void TopUp(double c)
+        public double TopUp(double c)
         {
+            
+            double final = val += c;
 
+            return final;
         }
 
         public bool Deduct(double d)
@@ -33,7 +36,7 @@ namespace prac3
             return true;
         }
 
-        public string ToString()
+        public string toString()
         {
             return(ID+", "+Val);
         }

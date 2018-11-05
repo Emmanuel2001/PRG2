@@ -33,7 +33,7 @@ namespace prac3
 
             for (int i=0; i< cardlist.Count; i++)
             {
-                cashcardlist.Add(cardlist[i].ToString());
+                cashcardlist.Add(cardlist[i].toString());
             }
 
 
@@ -53,6 +53,40 @@ namespace prac3
             cardlist.Add(c3);
             cardlist.Add(c4);
             cardlist.Add(c5);
+        }
+
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            string input;
+            input = CheckId.Text;
+
+            foreach (CashCard x in cardlist)
+            {
+                if (input == x.ID.ToString())
+                {
+                    TheBalance.Text = "Balace: " + x.Val.ToString();
+                }
+            }
+        }
+
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            string cash;
+            double preview;
+            cash = Topupbox.Text;
+
+            foreach (CashCard x in cardlist)
+            {
+                if (CheckId.Text == x.ID.ToString())
+                {
+                    preview = x.TopUp(Convert.ToDouble(cash));
+
+                    Finalbalance.Text = preview.ToString();
+                }
+            }
+
         }
     }
 }
