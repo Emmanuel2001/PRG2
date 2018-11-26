@@ -31,12 +31,17 @@ namespace Practical_4
 
         public void Deposit(double d)
         {
-
+            balance += d;
         }
         
         public bool Withdraw(double w)
         {
-            return true;
+            if (w <= balance)
+            {
+                balance -= w;
+                return true;
+            }
+            return false;
         }
 
         public double EquireBalance()
@@ -46,7 +51,7 @@ namespace Practical_4
 
         public string ToString()
         {
-            return AccNo + ", " + AccName + ", " + Balance;
+            return ($"Account name: {AccNo} , \nAccount Name: {AccName}, \nBalance: {Balance}");
         }
 
         protected BankAccount() { }

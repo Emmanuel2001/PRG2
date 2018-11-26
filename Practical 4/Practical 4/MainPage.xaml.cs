@@ -41,15 +41,15 @@ namespace Practical_4
 
         private void account1DepositBtn_Click(object sender, RoutedEventArgs e)
         {
-            accounts[0].Balance += 1000;
+            accounts[0].Deposit(1000);
             account1Txt.Text = accounts[0].ToString();
         }
 
         private void account1WithdrawBtn_Click(object sender, RoutedEventArgs e)
         {
-            if (accounts[0].Balance > 0)
+            
+            if (accounts[0].Withdraw(1000))
             {
-                accounts[0].Balance -= 1000;
             }
             else
             {
@@ -65,15 +65,14 @@ namespace Practical_4
         }
         private void account2DepositBtn_Click(object sender, RoutedEventArgs e)
         {
-            accounts[1].Balance += 1000;
+            accounts[1].Deposit(1000);
             account2Txt.Text = accounts[1].ToString();
         }
 
         private void account2WithdrawBtn_Click(object sender, RoutedEventArgs e)
         {
-            if (accounts[1].Balance > 0)
+            if (accounts[1].Withdraw(1000))
             {
-                accounts[1].Balance -= 1000;
             }
             else
             {

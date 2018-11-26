@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="Practical_6.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Practical_6"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:ConnectionId='1' x:Name="listAllBtn" Content="List all the shapes"
+HorizontalAlignment="Left" Margin="71,56,0,0" VerticalAlignment="Top"
+Height="72" Width="359" FontSize="22"                         />
+        <Button x:ConnectionId='2' x:Name="displayAreaBtn" Content="Display the areas of the shapes"
+HorizontalAlignment="Left" Margin="71,152,0,0" VerticalAlignment="Top"
+Height="72" Width="359" FontSize="20"                             />
+        <Button x:ConnectionId='3' x:Name="displayPerimeterBtn" Content="Display the perimeters the shapes"
+HorizontalAlignment="Left" Margin="71,248,0,0" VerticalAlignment="Top"
+Height="72" Width="359" FontSize="22"                                  />
+        <Button x:ConnectionId='4' x:Name="addCircleBtn" Content="Add a new circle"
+HorizontalAlignment="Left" Margin="71,346,0,0" VerticalAlignment="Top"
+Height="72" Width="359" FontSize="22"                           />
+        <Button x:ConnectionId='5' x:Name="deleteCircleBtn" Content="Delete a circle"
+HorizontalAlignment="Left" Margin="71,447,0,0" VerticalAlignment="Top"
+Height="72" Width="359" FontSize="22"                              />
+        <TextBlock x:ConnectionId='6' x:Name="detailsTxt" HorizontalAlignment="Left" Margin="511,56,0,0"
+TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="463" Width="461"
+FontSize="20"/>
+        <Button x:ConnectionId='7' x:Name="Sort" Content="Sort the shapes" HorizontalAlignment="Left" Margin="71,559,0,0" VerticalAlignment="Top" Height="69" Width="359"                   />
+    </Grid>
+</Page>
+

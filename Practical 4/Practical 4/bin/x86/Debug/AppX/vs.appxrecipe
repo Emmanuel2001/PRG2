@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>634507bf-06c1-42b5-8572-73ed5924284c</PackageIdentityName>
     <PackageIdentityPublisher>CN=Emman</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Emman\source\repos\Practical 4\Practical 4\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\Practical 4\Practical 4\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>D:\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Emman\source\repos\Practical 4\Practical 4\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\Practical 4\Practical 4\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>0DFC0D2D988AAF2B8A873EDA41640E837F5193DB240309801CFCF241423BD463</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>634507bf-06c1-42b5-8572-73ed5924284c_1.0.0.0_x86__99g4xcw2taegg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>634507bf-06c1-42b5-8572-73ed5924284c_99g4xcw2taegg!App</RegisteredUserModeAppID>
@@ -28,16 +28,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Emman\source\repos\Practical 4\Practical 4\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\Practical 4\Practical 4\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-05T02:16:55.709</Modified>
+      <Modified>2018-11-07T07:25:17.317</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Emman\source\repos\Practical 4\Practical 4\bin\x86\Debug\Practical 4.exe">
+    <AppxPackagedFile Include="C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\Practical 4\Practical 4\bin\x86\Debug\Practical 4.exe">
       <PackagePath>entrypoint\Practical 4.exe</PackagePath>
-      <Modified>2018-11-05T02:16:55.452</Modified>
+      <Modified>2018-11-07T07:25:17.055</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -495,68 +495,68 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T15:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Emman\source\repos\Practical 4\Practical 4\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\Practical 4\Practical 4\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2018-11-05T01:14:16.725</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Emman\source\repos\Practical 4\Practical 4\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\Practical 4\Practical 4\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2018-10-14T15:24:18.417</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Emman\source\repos\Practical 4\Practical 4\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\Practical 4\Practical 4\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-10-14T15:24:18.417</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Emman\source\repos\Practical 4\Practical 4\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\Practical 4\Practical 4\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-10-14T15:24:18.417</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Emman\source\repos\Practical 4\Practical 4\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\Practical 4\Practical 4\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-10-14T15:24:18.417</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Emman\source\repos\Practical 4\Practical 4\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\Practical 4\Practical 4\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-10-14T15:24:18.417</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Emman\source\repos\Practical 4\Practical 4\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\Practical 4\Practical 4\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-10-14T15:24:18.417</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Emman\source\repos\Practical 4\Practical 4\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\Practical 4\Practical 4\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-10-14T15:24:18.417</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Emman\source\repos\Practical 4\Practical 4\bin\x86\Debug\Practical 4.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\Practical 4\Practical 4\bin\x86\Debug\Practical 4.xr.xml">
       <PackagePath>Practical 4.xr.xml</PackagePath>
       <Modified>2018-11-05T02:16:07.830</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Emman\source\repos\Practical 4\Practical 4\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\Practical 4\Practical 4\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
       <Modified>2018-11-05T01:28:35.552</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Emman\source\repos\Practical 4\Practical 4\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\Practical 4\Practical 4\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-11-05T02:16:55.330</Modified>
+      <Modified>2018-11-07T07:16:13.705</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2018-10-14T15:42:18.823</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Emman\source\repos\Practical 4\Practical 4\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\Practical 4\Practical 4\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-05T01:28:37.095</Modified>
+      <Modified>2018-11-07T07:16:15.252</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Emman\source\repos\Practical 4\Practical 4\bin\x86\Debug\Core\Practical 4.exe">
+    <AppxPackagedFile Include="C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\Practical 4\Practical 4\bin\x86\Debug\Core\Practical 4.exe">
       <PackagePath>Practical 4.exe</PackagePath>
-      <Modified>2018-11-05T02:16:55.706</Modified>
+      <Modified>2018-11-07T07:25:17.314</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

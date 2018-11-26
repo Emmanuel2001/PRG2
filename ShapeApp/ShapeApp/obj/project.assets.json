@@ -27507,11 +27507,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Emman\\source\\repos\\ShapeApp\\ShapeApp\\ShapeApp.csproj",
+      "projectUniqueName": "C:\\Users\\Emman\\OneDrive\\Documents\\GitHub\\PRG2\\ShapeApp\\ShapeApp\\ShapeApp.csproj",
       "projectName": "ShapeApp",
-      "projectPath": "C:\\Users\\Emman\\source\\repos\\ShapeApp\\ShapeApp\\ShapeApp.csproj",
+      "projectPath": "C:\\Users\\Emman\\OneDrive\\Documents\\GitHub\\PRG2\\ShapeApp\\ShapeApp\\ShapeApp.csproj",
       "packagesPath": "C:\\Users\\Emman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Emman\\source\\repos\\ShapeApp\\ShapeApp\\obj\\",
+      "outputPath": "C:\\Users\\Emman\\OneDrive\\Documents\\GitHub\\PRG2\\ShapeApp\\ShapeApp\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

@@ -17,11 +17,13 @@ namespace ShapeApp
 
         }
 
+        /* Area of whole cylinder*/
         public override double CalculateArea()
         {
             double sarea = 2 * Math.PI * Radius * Length + 2 * Math.PI * Math.Pow(Radius, 2);
             return sarea;
         }
+
         public double CalculateVolume()
         {
             return CalculateArea() * Length;
@@ -29,13 +31,12 @@ namespace ShapeApp
 
         public string ToString()
         {
-            return "volume" + CalculateVolume();
+            return base.ToString();
         }
         public Cylinder() { }
 
-        public Cylinder(double r, double l)
+        public Cylinder(double r, double l) : base(r)
         {
-            Radius = r;
             Length = l;
         }
     }

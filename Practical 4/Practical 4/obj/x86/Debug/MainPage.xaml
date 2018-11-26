@@ -37,7 +37,7 @@ Height="107" Width="350" FontSize="24"                                  />
         <Button x:ConnectionId='9' x:Name="account2InterestBtn" Content="Display Interest of Account 2"
 HorizontalAlignment="Left" Margin="880,625,0,0" VerticalAlignment="Top"
 Height="107" Width="350" FontSize="24"                                  />
-        <TextBlock x:ConnectionId='10' x:Name="Ac1" HorizontalAlignment="Left" Margin="562,560,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="48" Width="202"/>
+        <TextBlock x:ConnectionId='10' x:Name="Ac1" HorizontalAlignment="Left" Margin="557,682,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="48" Width="202"/>
         <TextBlock x:ConnectionId='11' x:Name="Ac2" HorizontalAlignment="Left" Margin="681,672,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="58" Width="194"/>
     </Grid>
 </Page>

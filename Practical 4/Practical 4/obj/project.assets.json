@@ -27507,11 +27507,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Emman\\source\\repos\\Practical 4\\Practical 4\\Practical 4.csproj",
+      "projectUniqueName": "C:\\Users\\Emman\\OneDrive\\Documents\\GitHub\\PRG2\\Practical 4\\Practical 4\\Practical 4.csproj",
       "projectName": "Practical 4",
-      "projectPath": "C:\\Users\\Emman\\source\\repos\\Practical 4\\Practical 4\\Practical 4.csproj",
+      "projectPath": "C:\\Users\\Emman\\OneDrive\\Documents\\GitHub\\PRG2\\Practical 4\\Practical 4\\Practical 4.csproj",
       "packagesPath": "C:\\Users\\Emman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Emman\\source\\repos\\Practical 4\\Practical 4\\obj\\",
+      "outputPath": "C:\\Users\\Emman\\OneDrive\\Documents\\GitHub\\PRG2\\Practical 4\\Practical 4\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

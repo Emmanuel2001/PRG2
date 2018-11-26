@@ -23,7 +23,7 @@ namespace ShapeApp
         
         public string ToString()
         {
-            return "Area:" + CalculateArea();
+            return "Cirle Radius:" + Radius;
         }
 
         public Circle() { }

@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>7143706b-9b9b-4953-ac8f-7bb2f013dec3</PackageIdentityName>
     <PackageIdentityPublisher>CN=Emman</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Emman\source\repos\ShapeApp\ShapeApp\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\ShapeApp\ShapeApp\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>D:\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Emman\source\repos\ShapeApp\ShapeApp\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\ShapeApp\ShapeApp\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>E15A29145EC8C50B08E0DC8E5F834A76934EB1CA0205003C1ACBD250205F8795</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>7143706b-9b9b-4953-ac8f-7bb2f013dec3_1.0.0.0_x86__99g4xcw2taegg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>7143706b-9b9b-4953-ac8f-7bb2f013dec3_99g4xcw2taegg!App</RegisteredUserModeAppID>
@@ -28,16 +28,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Emman\source\repos\ShapeApp\ShapeApp\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\ShapeApp\ShapeApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-05T04:13:06.420</Modified>
+      <Modified>2018-11-07T07:34:57.217</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Emman\source\repos\ShapeApp\ShapeApp\bin\x86\Debug\ShapeApp.exe">
+    <AppxPackagedFile Include="C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\ShapeApp\ShapeApp\bin\x86\Debug\ShapeApp.exe">
       <PackagePath>entrypoint\ShapeApp.exe</PackagePath>
-      <Modified>2018-11-05T04:13:05.870</Modified>
+      <Modified>2018-11-07T07:34:54.045</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -495,53 +495,53 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T15:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Emman\source\repos\ShapeApp\ShapeApp\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\ShapeApp\ShapeApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2018-11-05T02:20:10.034</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Emman\source\repos\ShapeApp\ShapeApp\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\ShapeApp\ShapeApp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2018-10-14T15:24:18.417</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Emman\source\repos\ShapeApp\ShapeApp\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\ShapeApp\ShapeApp\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-10-14T15:24:18.417</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Emman\source\repos\ShapeApp\ShapeApp\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\ShapeApp\ShapeApp\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-10-14T15:24:18.417</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Emman\source\repos\ShapeApp\ShapeApp\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\ShapeApp\ShapeApp\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-10-14T15:24:18.417</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Emman\source\repos\ShapeApp\ShapeApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\ShapeApp\ShapeApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-10-14T15:24:18.417</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Emman\source\repos\ShapeApp\ShapeApp\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\ShapeApp\ShapeApp\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-10-14T15:24:18.417</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Emman\source\repos\ShapeApp\ShapeApp\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\ShapeApp\ShapeApp\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-10-14T15:24:18.417</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Emman\source\repos\ShapeApp\ShapeApp\bin\x86\Debug\ShapeApp.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\ShapeApp\ShapeApp\bin\x86\Debug\ShapeApp.xr.xml">
       <PackagePath>ShapeApp.xr.xml</PackagePath>
       <Modified>2018-11-05T02:48:12.892</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Emman\source\repos\ShapeApp\ShapeApp\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\ShapeApp\ShapeApp\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
       <Modified>2018-11-05T02:48:12.918</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Emman\source\repos\ShapeApp\ShapeApp\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\ShapeApp\ShapeApp\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
       <Modified>2018-11-05T04:13:05.668</Modified>
     </AppxPackagedFile>
@@ -549,14 +549,14 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2018-10-14T15:42:18.823</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Emman\source\repos\ShapeApp\ShapeApp\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\ShapeApp\ShapeApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-05T02:48:14.416</Modified>
+      <Modified>2018-11-07T07:34:56.843</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Emman\source\repos\ShapeApp\ShapeApp\bin\x86\Debug\Core\ShapeApp.exe">
+    <AppxPackagedFile Include="C:\Users\Emman\OneDrive\Documents\GitHub\PRG2\ShapeApp\ShapeApp\bin\x86\Debug\Core\ShapeApp.exe">
       <PackagePath>ShapeApp.exe</PackagePath>
-      <Modified>2018-11-05T04:13:06.412</Modified>
+      <Modified>2018-11-07T07:34:57.210</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

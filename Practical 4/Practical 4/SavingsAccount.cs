@@ -26,16 +26,12 @@ namespace Practical_4
 
         public string ToString()
         {
-            return AccName + ", " + AccNo + ", " + Balance + ", " + Rate;
+            return base.ToString();
         }
 
-        public SavingsAccount(string no, string name, double b, double r)
+        public SavingsAccount(string no, string name, double b, double r) : base(no, name, b)
         {
-            AccNo = no;
-            AccName = name;
-            Balance = b;
             Rate = r;
-
         }
 
     }
